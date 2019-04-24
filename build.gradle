@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'me.idarkyy.yaml'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.yaml:snakeyaml:1.8'
+    compile 'com.google.guava:guava:27.1-jre'
+}
